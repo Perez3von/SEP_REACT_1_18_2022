@@ -1,0 +1,73 @@
+.form {
+  text-align: center;
+  width: 400px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+input {
+  margin-top: 5px;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  border-style: solid;
+  border-color: rgb(187, 185, 185);
+}
+
+.full-name,
+.password-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  margin-left: 4%;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.agreement-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  word-wrap: break-word;
+}
+
+.btn {
+  text-align: center;
+  justify-items: center;
+  width: 13em;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  border-style: none;
+  color: white;
+}
+.btn:focus {
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(212, 212, 212);
+}
+#signin-button {
+  background-color: rgb(76, 187, 76);
+}
+
+#register-button {
+  background-color: rgb(32, 132, 190);
+}
+.checkbox-container {
+  margin-top: 2em;
+  width: 200px;
+  text-align: center;
+}
+
+input:focus {
+  border: 2px solid #50bfff;
+  box-shadow: 0 0 3px #50bfff;
+  outline-offset: 0px;
+  outline: none;
+}

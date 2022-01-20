@@ -5,39 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div class='form'>
         <h2>Sign Up</h2>
         <div class='inputs-container'>
             <div class='full-name'>
-                <input type="text" name="first_name" id="first-name" placeholder="First Name">
-                <input type="text" name="last_name" id='last-name' placeholder="Last Name">
+                <input type="text" name="first_name" id="first-name" placeholder="First Name" class="nnInputs">
+                <input type="text" name="last_name" id='last-name' placeholder="Last Name" class="nnInputs">
             </div>
-            <input type="text" name="phone_number" id="phone-number" placeholder="Phone Number">
-            <input type="email" name="email_address" id="email-address" placeholder="Email Address">
+            <div class="contact-info">
+               <input type="text" name="phone_number" id="phone-number" placeholder="Phone Number" class='large-input'>
+               <input type="email" name="email_address" id="email-address" placeholder="Email Address" class='large-input'> 
+            </div>
             <div class="password-container">
-                <input type="password" name="password_field" id="password-field" placeholder="Password">
-                <input type="password" name="confirm_password_field" id="confirm-password-field" placeholder="Confirm Password">
+                <input type="password" name="password_field" id="password-field" placeholder="Password" class="nnInputs">
+                <input type="password" name="confirm_password_field" id="confirm-password-field " class="nnInputs" placeholder="Confirm Password">
             </div>
             <div class="agreement-container">
-                <input type="checkbox" name="agreement_check" id="agreement-check">
-                <label for="agreement_check">I Agree</label>
+                <div class="checkbox-container">
+                   <input type="checkbox" name="agreement_check" id="agreement-check">
+                   <label for="agreement_check">I Agree</label> 
+                </div>
                 <p> By clicking I Agree, you agree to the <a href="">Terms and Conditions </a> set by this site, including something</p>
             </div>
             <div class='login-signup-container'>
-                <a href=""><button> Register </button></a>
-                <a href=""><button> Sign In </button></a>
+                <a href=""><button id="register-button" class="btn"> Register </button></a>
+                <a href=""><button id="signin-button" class="btn "> Sign In </button></a>
 
             </div>
-            
-
-
-
         </div>
-
-
-
     </div>
     
 </body>
